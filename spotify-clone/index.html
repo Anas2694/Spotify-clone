@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="app">
+
+  <!-- ═══ SIDEBAR ═══ -->
+  <aside class="sidebar">
+    <div class="nav-panel">
+      <div class="nav-item active">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </div>
+      <div class="nav-item">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Search</span>
+      </div>
+    </div>
+
+    <div class="library-panel">
+      <div class="library-header">
+        <div class="library-title">
+          <img src="assets/library_icon.png" alt="library">
+          <span>Your Library</span>
+        </div>
+        <div class="library-actions">
+          <div class="icon-btn"><i class="fa-solid fa-plus"></i></div>
+          <div class="icon-btn"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+
+      <div class="library-body">
+        <div class="lib-card">
+          <div class="lib-card-title">Create your first playlist</div>
+          <div class="lib-card-sub">It's easy, we'll help you get started</div>
+          <button class="lib-card-btn">Create playlist</button>
+        </div>
+        <div class="lib-card">
+          <div class="lib-card-title">Let's find some podcasts</div>
+          <div class="lib-card-sub">We'll keep you updated on new episodes</div>
+          <button class="lib-card-btn">Browse podcasts</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ═══ MAIN CONTENT ═══ -->
+  <main class="main-content">
+    <div class="hero-gradient"></div>
+    <div class="content-inner">
+
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="topbar-left">
+          <div class="nav-arrow">
+            <img src="assets/backward_icon.png" alt="back">
+          </div>
+          <div class="nav-arrow">
+            <img src="assets/forward_icon.png" alt="forward">
+          </div>
+        </div>
+        <div class="topbar-right">
+          <button class="pill-btn">Explore Premium</button>
+          <button class="pill-btn dark">
+            <i class="fa-solid fa-download"></i> Install App
+          </button>
+          <div class="avatar">A</div>
+        </div>
+      </div>
+
+      <!-- Recently Played -->
+      <div class="section-header">
+        <h2 class="section-title">Recently Played</h2>
+        <span class="see-all">See all</span>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card1img.jpeg" class="card-img" alt="Top 50 Global">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top 50 – Global</div>
+          <div class="card-sub">Your daily updates of most played tracks</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card2img.jpeg" class="card-img" alt="Mahiye Jinna Sohna">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Mahiye Jinna Sohna</div>
+          <div class="card-sub">Darshan Raval · Youngveer</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card3img.jpeg" class="card-img" alt="Mere Paas Tum Ho">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Mere Paas Tum Ho</div>
+          <div class="card-sub">Silent Ocean · Lofi Mix</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card4img.jpeg" class="card-img" alt="Naa Ready">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Naa Ready</div>
+          <div class="card-sub">Alter Ego · Leo</div>
+        </div>
+      </div>
+
+      <!-- Trending -->
+      <div class="section-header">
+        <h2 class="section-title">Trending Near You</h2>
+        <span class="see-all">See all</span>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card2img.jpeg" class="card-img" alt="card">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Mahiye Jinna Sohna</div>
+          <div class="card-sub">Darshan Raval · Youngveer</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card3img.jpeg" class="card-img" alt="card">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Mere Paas Tum Ho</div>
+          <div class="card-sub">Silent Ocean · Lofi Mix</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card4img.jpeg" class="card-img" alt="card">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Naa Ready</div>
+          <div class="card-sub">Alter Ego · Leo</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card1img.jpeg" class="card-img" alt="card">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top 50 – Global</div>
+          <div class="card-sub">Your daily updates of most played tracks</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card5img.jpeg" class="card-img" alt="card">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top Songs – Global</div>
+          <div class="card-sub">Weekly Music Charts</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card6img.jpeg" class="card-img" alt="card">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top Songs – India</div>
+          <div class="card-sub">Weekly Music Charts</div>
+        </div>
+      </div>
+
+      <!-- Featured Charts -->
+      <div class="section-header">
+        <h2 class="section-title">Featured Charts</h2>
+        <span class="see-all">See all</span>
+      </div>
+      <div class="cards-row">
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card6img.jpeg" class="card-img" alt="Top Songs India">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top Songs – India</div>
+          <div class="card-sub">Weekly Music Charts</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card5img.jpeg" class="card-img" alt="Top Songs Global">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top Songs – Global</div>
+          <div class="card-sub">Weekly Music Charts</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card1img.jpeg" class="card-img" alt="Top 50 Global">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top 50 – Global</div>
+          <div class="card-sub">Your daily updates of most played tracks</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card6img.jpeg" class="card-img" alt="Top Songs India">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top Songs – India</div>
+          <div class="card-sub">Weekly Music Charts</div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="assets/card5img.jpeg" class="card-img" alt="Top Songs Global">
+            <div class="card-play"><i class="fa-solid fa-play"></i></div>
+          </div>
+          <div class="card-title">Top Songs – Global</div>
+          <div class="card-sub">Weekly Music Charts</div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+    </div>
+  </main>
+
+  <!-- ═══ PLAYER BAR ═══ -->
+  <footer class="player">
+    <div class="now-playing">
+      <div class="album-art">
+        <img src="assets/album_picture.jpeg" alt="Daylight">
+      </div>
+      <div class="track-info">
+        <div class="track-name">Daylight</div>
+        <div class="track-artist">David Kushner</div>
+      </div>
+      <div class="track-actions">
+        <i class="fa-solid fa-heart liked" id="heartBtn"></i>
+        <i class="fa-solid fa-circle-plus"></i>
+      </div>
+    </div>
+
+    <div class="player-center">
+      <div class="controls-row">
+        <button class="ctrl-btn" title="Shuffle">
+          <img src="assets/player_icon1.png" alt="shuffle">
+        </button>
+        <button class="ctrl-btn" title="Previous">
+          <img src="assets/player_icon2.png" alt="prev">
+        </button>
+        <button class="ctrl-btn play-pause" title="Play/Pause" id="playBtn">
+          <img src="assets/player_icon3.png" alt="play" id="playIcon">
+        </button>
+        <button class="ctrl-btn" title="Next">
+          <img src="assets/player_icon4.png" alt="next">
+        </button>
+        <button class="ctrl-btn" title="Repeat">
+          <img src="assets/player_icon5.png" alt="repeat">
+        </button>
+      </div>
+      <div class="progress-row">
+        <span class="time-label" id="curr">0:00</span>
+        <input type="range" min="0" max="213" value="0" id="progressBar">
+        <span class="time-label right">3:33</span>
+      </div>
+    </div>
+
+    <div class="player-right">
+      <i class="fa-solid fa-list-ul" title="Queue"></i>
+      <i class="fa-solid fa-display" title="Now Playing View"></i>
+      <div class="vol-wrap">
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" min="0" max="100" value="65" class="vol-slider">
+      </div>
+      <i class="fa-solid fa-maximize" title="Full Screen"></i>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
